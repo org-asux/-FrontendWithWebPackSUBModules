@@ -9,14 +9,14 @@ Attention: the `npm i` command will go into the `container`, `cart` and `product
 
 ## ATTENTION: Bug - workaround
 
-After starting up the web-server, open browser tabs for:
+After starting up the web-server, open a *SINGLE* browser tab, for following URLS -- IN SEQUENCE:
 
 * http://localhost:3000
 * http://localhost:8000
 * http://localhost:8001
-* You have to reload the above 3 pages - in order - for you to see something.
+* NOTE: Load the above 3 pages - in order.  Then, use browser-back button - for you to see something in 1st link.
 
-Not sure why, initial load of webpage shows empty content.
+Not sure why, that the initial load of 1st webpage shows empty content.
 
 # HOW-TO: run SUB-module "cart"
 

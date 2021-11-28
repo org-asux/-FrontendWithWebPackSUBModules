@@ -1,0 +1,27 @@
+{
+  "name": "cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "dev": "webpack serve"
+  },
+  "keywords": [
+    "micro-frontend",
+    "webpack",
+    "ecommerce"
+  ],
+  "author": "Tapajyoti Bose",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "nodemon": "^2.0.13",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}

@@ -10,7 +10,7 @@
         "install": "cd cart && yarn && cd ../container && yarn && cd ../products && yarn"
     },
     "author": "ToSarma@gmail.com",
-    "license": "BSD 3-Clause",
+    "license": "BSD-3-Clause",
     "devDependencies": {
         "faker": "*",
         "html-webpack-plugin": "*",

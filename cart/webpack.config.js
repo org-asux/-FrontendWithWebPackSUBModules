@@ -8,9 +8,6 @@ module.exports = {
         port: 8001, //// Make sure this Port # is different for EACH µ-Frontend!!!
     },
     plugins: [
-        new HTMLWebpackPlugin({
-            template: path.resolve(__dirname, 'public', 'index.html'),
-        }),
         new ModuleFederationPlugin({
             name: 'cart',
             filename: 'remoteEntry.js',
@@ -22,6 +19,9 @@ module.exports = {
                     singleton: true,
                 }
             },
+        }),
+        new HTMLWebpackPlugin({
+            template: path.resolve(__dirname, 'public', 'index.html'),
         })
     ],
 };
